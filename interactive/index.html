@@ -24,40 +24,40 @@
                 <div class="card-body">
                     <div class="row g-3 mb-3">
                         <div class="col-sm-5">
-                            <label for="firstName" class="form-label fw-bold">Card #</label>
-                            <input type="text" class="form-control" aria-label="name" placeholder="XXXXXXXXXXXXXXXX">
+                            <label for="card" class="form-label fw-bold">Card #</label>
+                            <input type="text" class="form-control" id="card" aria-label="card" placeholder="XXXXXXXXXXXXXXXX">
                         </div>
                         <div class="col-sm-3">
-                            <label for="lastName" class="form-label fw-bold">CVC #</label>
-                            <input type="text" class="form-control" aria-label="lastName" placeholder="0000">
+                            <label for="cvc" class="form-label fw-bold">CVC #</label>
+                            <input type="text" class="form-control" id="cvc" aria-label="cvc" placeholder="0000">
                         </div>
                         <div class="col-sm-4">
-                            <label for="lastName" class="form-label fw-bold">Amount</label>
+                            <label for="amount" class="form-label fw-bold">Amount</label>
                             <div class="input-group">
 
                                 <span class="input-group-text fw-bold">$</span><input type="text" class="form-control"
-                                    aria-label="lastName" placeholder="Amount">
+                                    aria-label="amount"  id="amount" placeholder="Amount">
                             </div>
                         </div>
                     </div>
                     <div class="row g-2 mb-3">
                         <div class="col-sm-6">
                             <label for="firstName" class="form-label fw-bold">First Name</label>
-                            <input type="text" class="form-control" aria-label="name">
+                            <input type="text" id="firstName" class="form-control" aria-label="firstName">
                         </div>
                         <div class="col-sm-6">
                             <label for="lastName" class="form-label fw-bold">Last Name</label>
-                            <input type="text" class="form-control" aria-label="lastName">
+                            <input type="text" id="lastName" class="form-control" aria-label="lastName">
                         </div>
                     </div>
                     <div class="row g-3 mb-3">
                         <div class="col-sm-6">
-                            <label for="City" class="form-label fw-bold">City</label>
-                            <input type="text" class="form-control" aria-label="City">
+                            <label for="city" class="form-label fw-bold">City</label>
+                            <input type="text" id="city" class="form-control" aria-label="city">
                         </div>
                         <div class="col-sm">
                             <label for="states" class="form-label fw-bold">State</label>
-                            <select name="states" id="state" class="form-select">
+                            <select name="states" id="states" class="form-select">
                                 <option selected>Pick a state</option>
                                 <option value="ohio">OH</option>
                                 <option value="florida">FL</option>
@@ -66,7 +66,7 @@
                         </div>
                         <div class="col-sm">
                             <label for="zip" class="form-label fw-bold">Postal Code</label>
-                            <input type="text" class="form-control" aria-label="zip">
+                            <input type="text" id="zip" class="form-control" aria-label="zip">
                         </div>
                     </div>
                     <div class="row g-2 mb-3">
